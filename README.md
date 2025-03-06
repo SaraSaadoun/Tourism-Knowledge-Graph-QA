@@ -39,25 +39,25 @@ A question-answering system about tourist places and countries using a Neo4j kno
 
 ## 🚀 Installation & Setup
 
-# Create environment
+### Create environment
 ```bash
 conda create -n kg python=3.11 -y
 conda activate kg-env
 ```
-# Install dependencies
+### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-# Configure environment
+### Configure environment
 ```bash
 echo "NEO4J_URI='uri'
 NEO4J_USERNAME='neo4j'
 NEO4J_PASSWORD='your_password_here'
 GROQ_API_KEY='your_groq_key_here'" > .env
 ```
-# Run application
+### Run application
 ```bash
 python app.py
 ```
-# Access Interface
+### Access Interface
 Visit http://127.0.0.1:7860/ in your browser
